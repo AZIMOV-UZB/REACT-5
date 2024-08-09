@@ -2,13 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-.container{
-    max-width: 1280px;
-    padding: 0 10px;
-    margin: 0 auto;
-    text-align: center;
-  }
 
+  .img{
+    width: 100%;
+  }
 .bottom{
   margin-top: 20px;
 }
@@ -19,7 +16,12 @@
   li{
     list-style: none;
   }
-
+  .hero__dn{
+    display: none;
+  }
+button{
+  transition: .9s;
+}
   button:active{
     transform: scale(1.1);
   }
@@ -29,11 +31,44 @@
     justify-content: space-between;
     padding:  5px;
   }
+  .hero{
+padding: 50px 0;
+justify-content: space-between;
+  }
+
+  .hero__card{
+    border-radius: 50px;
+  }
+  @media ( max-width:1200px){
+    .hero{
+flex-direction: column;
+gap: 30px;
+padding: 0 10px;
+    }
+    .hero__card{
+width: 100%;
+    }
+    .dd{
+      display: none;
+    }
+.hero__dn{
+  display: block;
+  margin-top: 30px;
+}
+  }
+
+
 
   @media ( max-width:900px){
   .navbar__collection{
     display: none;
 
+}
+
+
+.shop_w{
+  display: flex;
+  flex-wrap: wrap;
 }
 .bottom__bag{
   width: 350px;
@@ -76,6 +111,11 @@ font-size: 20px;
 .bottom__inp{
   width: 110px;
 }
+
+.shop__card{
+  width: 100%;
+}
+
   }
 
 
@@ -85,6 +125,9 @@ font-size: 20px;
   @media ( max-width:450px){
     .ss{
       display: none;
+    }
+    .hero__title{
+      font-size: 32px;
     }
 
     .navbar__bag{

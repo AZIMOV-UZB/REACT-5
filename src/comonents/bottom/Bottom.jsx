@@ -9,7 +9,7 @@ import { CiUser } from "react-icons/ci";
 
 export const Bottom = () => {
   return (
-    <div className='bottom container items-center flex justify-between'>
+    <div className='bottom container mx-auto px-4 items-center flex justify-between'>
   <div className='flex  gap-6 items-center'> 
     <div  className='items-center'>
       <HiMenuAlt1 className='text-2xl	' />

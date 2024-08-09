@@ -12,7 +12,7 @@ const Header = () => {
 
   return (
     <header className="py-3 bg-gray-100	 dark:bg-black ">
-<nav className="navbar flex justify-between container  items-center">
+<nav className="navbar flex justify-between container mx-auto px-4 items-center">
   <p className="text-3xl font-bold	 "> clickhose<hr className="hrr" /></p>
   <div className="navbar__collection flex gap-5 text-4xl	">
 
