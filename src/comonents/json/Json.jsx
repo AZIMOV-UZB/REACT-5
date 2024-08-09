@@ -26,13 +26,7 @@ const Json = () => {
                 <p className='desck'>{product.description}</p>
                 <p className='text-lg font-semibold ml-2'>${product.price}</p>
             </div>
-            <button className=' button w-12 border rounded-full bg-emerald-300 p-1 text-xs text-slate-100'>New</button>
-            <button className='btr w-9 h-9 rounded-full border-none bg-yellow-400 '><LiaCartPlusSolid className='text-slate-100 text-2xl m-auto' /></button>
-            <div className='ofset flex '>
-                <button disabled={offset <= 0}  onClick={()=> setOffset(p=>p-1)} className='border w-6 h-6  flex items-center justify-center text-slate-400 rounded-md'>-</button>
-                <button className='w-10'>{offset}</button>
-                <button onClick={handClick} className='border w-6 h-6  flex items-center justify-center text-slate-400 rounded-md'>+</button>
-            </div>
+         
         </div>
     ))
  
