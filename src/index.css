@@ -35,6 +35,9 @@ button{
 padding: 50px 0;
 justify-content: space-between;
   }
+  ::-webkit-scrollbar{
+    display: none;
+  }
 
   .hero__card{
     border-radius: 50px;
