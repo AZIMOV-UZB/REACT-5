@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
 import "./json.css"
-import { LiaCartPlusSolid } from "react-icons/lia";
 import axios from 'axios'
 const API_URL = "https://dummyjson.com"
 const Json = () => {
@@ -23,7 +22,7 @@ const Json = () => {
             <div className='flex flex-col gap-2 '>
                 <h3 className='text-center text-xl font-semibold'>{product.brand}</h3>
                 <p className='text-red-500 text-sm font-medium ml-2'>12%</p>
-                <p className='desck'>{product.description}</p>
+                <p className='desck dark:text-white'>{product.description}</p>
                 <p className='text-lg font-semibold ml-2'>${product.price}</p>
             </div>
          

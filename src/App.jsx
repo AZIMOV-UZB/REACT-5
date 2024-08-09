@@ -4,6 +4,7 @@ import { Bottom } from './comonents/bottom/Bottom'
 import Hero from './comonents/hero/Hero'
 import Shop from './comonents/shop/Shop'
 import Json from './comonents/json/Json'
+import Footer from './comonents/footer/Footer'
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Hero/>
       <Shop/>
       <Json/>
+      <Footer/>
     </div>
   )
   
