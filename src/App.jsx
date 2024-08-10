@@ -8,7 +8,7 @@ import Footer from './comonents/footer/Footer'
 
 const App = () => {
   return (
-    <div className=" dark:text-white dark:bg-black min-h-screen w-screen">
+    <div className=" dark:text-white dark:bg-black min-h-screen ">
       <Header/>
       <Bottom/>
       <Hero/>

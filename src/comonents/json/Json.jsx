@@ -17,7 +17,7 @@ const Json = () => {
         setOffset(offset + 1)
     }
     const productItem = products?.map((product) => (
-        <div key={product.id} className='w-72 p-3 api border flex flex-col gap-4 items-center justify-center rounded-lg shadow-md relative'>
+        <div key={product.id} className='w-72 p-3 api border flex flex-col gap-4 items-center justify-center rounded-lg shadow-md relative '>
             <img src={product.images[0]} alt="" className='w-full h-52 object-contain hover:scale-105 ' />
             <div className='flex flex-col gap-2 '>
                 <h3 className='text-center text-xl font-semibold'>{product.brand}</h3>

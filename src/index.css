@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+.footer__card{
+  line-height: 35px;
+}
 
   .img{
     width: 100%;
@@ -35,9 +38,7 @@ button{
 padding: 50px 0;
 justify-content: space-between;
   }
-  ::-webkit-scrollbar{
-    display: none;
-  }
+
 
   .hero__card{
     border-radius: 50px;
@@ -60,7 +61,14 @@ width: 100%;
 }
   }
 
+.shop__card{
+  transition: .5s;
+}
+.shop__card:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
 
+}
 
   @media ( max-width:900px){
   .navbar__collection{
@@ -117,6 +125,9 @@ font-size: 20px;
   width: 100%;
 }
 
+.footer__card{
+  width: 100%;
+}
   }
 
 

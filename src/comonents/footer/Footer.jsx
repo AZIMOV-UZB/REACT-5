@@ -10,7 +10,7 @@ const Footer = () => {
         </div>
         <div className='footer__wrapper container mx-auto py-14 flex flex-wrap	 justify-between'>
 
-<div className='footer__card mx-4  w-80'>
+<div className='footer__card mx-4  w-80 mt-6 leading-9	'>
     <p className='footer__title text-2xl font-bold'>Информация</p>
     <p className='text-xl font-normal' >Все права защищены © 2015 интернет-магазин AIKEA.BY Беларусь.
     </p>
@@ -20,7 +20,7 @@ const Footer = () => {
 
 </div>
 
-<div className='footer__card mx-4  w-80'>
+<div className='footer__card mx-4  w-80 mt-6 leading-9	'>
     <p className='footer__title text-2xl font-bold'>Меню</p>  
     <p className='text-xl font-normal' >Главная | Каталог | Товары в наличии</p>
     <p className='text-xl font-normal' >Скидки | Популярное | Вдохновение</p>
@@ -30,7 +30,7 @@ const Footer = () => {
 
 </div>
 
-<div className='footer__card mx-4  w-80'>
+<div className='footer__card mx-4  w-80 mt-6 leading-9	'>
     <p className='footer__title text-2xl font-bold'>Контакты</p>
     <p className='text-xl font-normal' >г.Минск</p>
     <p className='text-xl font-normal' >Ул. Первомайская, Д. 1, Кв. 43</p>
